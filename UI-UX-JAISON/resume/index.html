@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaison Abraham J | Futuristic Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-regular/1.0.0/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="fluidCanvas"></canvas>
+    <div class="noise-overlay"></div>
+
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <header class="header">
+        <div class="logo">JAI</div>
+        <nav class="nav-links">
+            <a href="#hero" class="nav-link dynamic-link active">Home</a>
+            <a href="#about" class="nav-link dynamic-link">About</a>
+            <a href="#skills" class="nav-link dynamic-link">Skills</a>
+            <a href="#experience" class="nav-link dynamic-link">Experience</a>
+            <a href="#projects" class="nav-link dynamic-link">Projects</a>
+            <a href="#contact" class="nav-link dynamic-link">Contact</a>
+        </nav>
+        <div class="location-badge">
+            <span class="pulse-dot"></span> Madurai, TN
+        </div>
+    </header>
+
+    <main class="scroll-container">
+
+        <section id="hero" class="section hero-section">
+            <div class="hero-content">
+              
+                <h1 class="hero-name reveal">Jaison Abraham J</h1>
+                <h2 class="hero-role reveal">Aspiring UI<span>|</span>UX Designer</h2>
+                <p class="hero-tagline reveal">“Bridging the gap between clean code and smart design, one scalable solution at a time.”</p>
+                
+                <div class="hero-actions reveal">
+                    <button class="btn btn-primary magnetic" data-target="#projects">
+                        <span>View Projects</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                    <button class="btn btn-secondary magnetic" data-target="#contact">
+                        <span>Contact Me</span>
+                    </button>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span class="mouse-wheel"></span>
+                <p>SCROLL TO EXPLORE</p>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">01 // PROFILE</span>
+                    <h2 class="section-title"> Blueprint</h2>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-text-panel reveal">
+                        <p class="lead-text">I am a driven MCA student with a strong foundation in Computer Science, specialized in bridging the gap between creative user experience and clean code.</p>
+                        <p>I am deeply passionate about crafting intuitive digital products, leveraging industry-standard design tools like Figma, Adobe XD, and Canva to build high-fidelity wireframes and interactive prototypes.</p>
+                        <p>Combined with my core programming strengths in C++ and responsive front-end development using HTML, CSS, and JavaScript, I focus on turning complex user problems into seamless, visually stunning visual experiences. I thrive on combining logical backend principles with modern UI/UX design to build impactful web applications.</p>
+                    </div>
+
+                    <div class="about-meta-panel reveal" data-tilt data-tilt-max="5" data-tilt-speed="1000">
+                        <div class="meta-box education-box">
+                            <h3><i class="fa-solid fa-graduation-cap"></i> EDUCATION</h3>
+                            <div class="edu-item">
+                                <span class="edu-degree">Master of Computer Applications (MCA)</span>
+                                <span class="edu-inst">Madurai Kamaraj University (MKU), Madurai</span>
+                                <span class="edu-date">Batch: 2025 – 2027</span>
+                            </div>
+                        </div>
+
+                        <div class="meta-box core-pills-box">
+                            <h3><i class="fa-solid fa-wand-magic-sparkles"></i> CORE FOCUS</h3>
+                            <div class="pill-grid">
+                                <span class="pill">UI/UX Research</span>
+                                <span class="pill">Wireframing</span>
+                                <span class="pill">Figma</span>
+                                <span class="pill">Canva</span>
+                                <span class="pill">Adobe XD</span>
+                                <span class="pill">Responsive Design</span>
+                                <span class="pill">Frontend Development</span>
+                                <span class="pill">GitHub Workflow</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">02 // ARSENAL</span>
+                    <h2 class="section-title">Tech & Design Matrix</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skills-category-card reveal" data-tilt data-tilt-max="7">
+                        <div class="card-glow"></div>
+                        <h3><i class="fa-solid fa-code"></i> Programming</h3>
+                        <div class="skill-bars">
+                            <div class="skill-progress-wrapper" data-progress="90%">
+                                <div class="skill-info"><span>HTML / CSS</span><span>90%</span></div>
+                                <div class="bar-bg"><div class="bar-fill"></div></div>
+                            </div>
+                            <div class="skill-progress-wrapper" data-progress="80%">
+                                <div class="skill-info"><span>JavaScript (ES6+)</span><span>80%</span></div>
+                                <div class="bar-bg"><div class="bar-fill"></div></div>
+                            </div>
+                            <div class="skill-progress-wrapper" data-progress="75%">
+                                <div class="skill-info"><span>C++ Core</span><span>75%</span></div>
+                                <div class="bar-bg"><div class="bar-fill"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category-card reveal" data-tilt data-tilt-max="7">
+                        <div class="card-glow"></div>
+                        <h3><i class="fa-solid fa-compass-drafting"></i> Design Ecosystem</h3>
+                        <div class="skill-bars">
+                            <div class="skill-progress-wrapper" data-progress="95%">
+                                <div class="skill-info"><span>Figma</span><span>95%</span></div>
+                                <div class="bar-bg"><div class="bar-fill"></div></div>
+                            </div>
+                            <div class="skill-progress-wrapper" data-progress="85%">
+                                <div class="skill-info"><span>Canva Studio</span><span>85%</span></div>
+                                <div class="bar-bg"><div class="bar-fill"></div></div>
+                            </div>
+                            <div class="skill-progress-wrapper" data-progress="80%">
+                                <div class="skill-info"><span>Adobe XD / PS</span><span>80%</span></div>
+                                <div class="bar-bg"><div class="bar-fill"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category-card reveal" data-tilt data-tilt-max="7">
+                        <div class="card-glow"></div>
+                        <h3><i class="fa-solid fa-layer-group"></i> Architecture</h3>
+                        <div class="skill-bars">
+                            <div class="skill-progress-wrapper" data-progress="85%">
+                                <div class="skill-info"><span>Responsive Layouts</span><span>85%</span></div>
+                                <div class="bar-bg"><div class="bar-fill"></div></div>
+                            </div>
+                            <div class="skill-progress-wrapper" data-progress="75%">
+                                <div class="skill-info"><span>ReactJS Basics</span><span>75%</span></div>
+                                <div class="bar-bg"><div class="bar-fill"></div></div>
+                            </div>
+                            <div class="skill-progress-wrapper" data-progress="80%">
+                                <div class="skill-info"><span>Git / GitHub</span><span>80%</span></div>
+                                <div class="bar-bg"><div class="bar-fill"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">03 // CHRONICLES</span>
+                    <h2 class="section-title">Professional Journey</h2>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-line"></div>
+                    
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">CURRENT TIME</div>
+                        <div class="timeline-content-card" data-tilt data-tilt-max="4">
+                            <span class="xp-badge">INTERNSHIP</span>
+                            <h3 class="xp-role">UI/UX Designer Intern</h3>
+                            <h4 class="xp-company">Techstack Software</h4>
+                            <p class="xp-duration"><i class="fa-regular fa-calendar"></i> 1 Month Intensive</p>
+                            
+                            <ul class="xp-tasks">
+                                <li><i class="fa-solid fa-circle-chevron-right"></i> Executed intensive User Research & architectural blueprinting maps.</li>
+                                <li><i class="fa-solid fa-circle-chevron-right"></i> Engineered state-of-the-art wireframing frameworks & structural high-fidelity prototypes.</li>
+                                <li><i class="fa-solid fa-circle-chevron-right"></i> Developed unified component libraries, strict design systems, and custom layouts.</li>
+                                <li><i class="fa-solid fa-circle-chevron-right"></i> Accelerated design-to-code pipelines collaborating seamlessly with developers.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">04 // PRODUCTION</span>
+                    <h2 class="section-title">Featured Artifact</h2>
+                </div>
+
+                <div class="project-showcase-wrapper reveal">
+                    <div class="project-premium-card" data-tilt data-tilt-max="3" data-tilt-speed="800">
+                        <div class="project-visual">
+                            <div class="geometric-art">
+                                <div class="geo-ring"></div>
+                                <div class="geo-cube"></div>
+                                <div class="geo-dots"></div>
+                            </div>
+                            <div class="project-image-overlay"></div>
+                        </div>
+                        
+                        <div class="project-details">
+                            <span class="proj-tag">LUXURY WEB SYSTEM</span>
+                            <h3 class="proj-title">Jai Events</h3>
+                            <p class="proj-desc">Developed a sophisticated, fully responsive multi-page web application for an elite, luxury event management platform. Blends breathtaking architectural aesthetics with state-of-the-art performance loops.</p>
+                            
+                            <div class="proj-features">
+                                <span><i class="fa-solid fa-circle-check"></i> Premium Glassmorphism UI</span>
+                                <span><i class="fa-solid fa-circle-check"></i> Dynamic Booking System</span>
+                                <span><i class="fa-solid fa-circle-check"></i> Interactive 3D Elements</span>
+                                <span><i class="fa-solid fa-circle-check"></i> Asynchronous UX Transitions</span>
+                                <span><i class="fa-solid fa-circle-check"></i> Google Maps API Core</span>
+                            </div>
+
+                            <div class="proj-tech">
+                                <span class="tech-pill">HTML5</span>
+                                <span class="tech-pill">CSS3 Variables</span>
+                                <span class="tech-pill">JavaScript ES6+</span>
+                                <span class="tech-pill">Google Maps API</span>
+                                <span class="tech-pill">FontAwesome</span>
+                            </div>
+
+                            <button class="btn btn-primary interactive-trigger magnetic">
+                                <span>Initialize Inspection</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">05 // COMMODITY</span>
+                    <h2 class="section-title">Secure Connection</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-panel reveal">
+                        <h3 class="panel-heading">Let's build the future together</h3>
+                        <p class="panel-para">Drop me an encrypted signal or schedule a real-time call to discuss premium product deployments.</p>
+                        
+                        <div class="contact-channels">
+                            <a href="mailto:abrahamjaison85@gmail.com" class="channel-card magnetic">
+                                <div class="channel-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="channel-content">
+                                    <span class="channel-label">EMAIL DIRECT</span>
+                                    <span class="channel-value">abrahamjaison85@gmail.com</span>
+                                </div>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/jaison-abraham-62a9a7307" target="_blank" class="channel-card magnetic">
+                                <div class="channel-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                                <div class="channel-content">
+                                    <span class="channel-label">LINKEDIN CONNECT</span>
+                                    <span class="channel-value">jaison-abraham-62a9a7307</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-panel reveal">
+                        <form id="futuristic-form" onsubmit="event.preventDefault(); alert('Transmission Successful!');">
+                            <div class="form-group">
+                                <input type="text" class="form-input" placeholder=" " id="input-name" required>
+                                <label class="form-label" for="input-name">IDENTITY NAME</label>
+                                <span class="input-line"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-input" placeholder=" " id="input-email" required>
+                                <label class="form-label" for="input-email">CORRESPONDENCE EMAIL</label>
+                                <span class="input-line"></span>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-input text-area" placeholder=" " id="input-msg" rows="5" required></textarea>
+                                <label class="form-label" for="input-msg">TRANSMISSION OVERVIEW</label>
+                                <span class="input-line"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit-btn magnetic">
+                                <span>Transmit Signal</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-divider"></div>
+            <div class="footer-container">
+                <p class="copyright">© 2026 Designed & Developed by <span class="glow-text">Jaison Abraham J</span></p>
+                <p class="footer-tag">SYSTEM OK // NODE_ONLINE</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <div class="project-modal" id="projectModal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-body">
+                <span class="subtitle">DEEP INSPECTION MODE</span>
+                <h2>Jai Events — Production Blueprint</h2>
+                <hr style="border:0; border-top:1px solid rgba(255,255,255,0.1); margin: 1.5rem 0;">
+                <p>This deployment highlights a full-stack front-end configuration utilizing smooth custom timing mechanisms, premium asset loads, asynchronous container renders, and structural UX pathways optimized for extreme high-end rendering configurations.</p>
+                <div class="modal-graphic">
+                    <div class="pulse-ring"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
